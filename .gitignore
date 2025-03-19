@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info
+*.egg
+local/bin/
+local/lib/
+node_modules/
+.vscode/
+.idea/
+*.iml
+*.ipynb
+.ipynb_checkpoints/
