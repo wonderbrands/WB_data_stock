@@ -17,16 +17,13 @@
                             type="object"
                             string="Reservación Fulfillment"
                             class="btn-primary"
-                            invisible = "[('show_full_button', '=', False)]" />
+                            WB_data_cyclic_count = "[('show_full_button', '=', False)]" />
                 </xpath>
 
                 <xpath expr="//field[@name='origin']" position="after">
                     <field name="restocked_field" string="Es reserva para full" />
                 </xpath>
 
-                <xpath expr="//field[@name='partner_id']" position="after">
-                    <field name="show_full_button" invisible="True"/>
-                </xpath>
             </field>
         </record>
     </data>
