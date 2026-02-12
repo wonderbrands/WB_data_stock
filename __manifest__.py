@@ -28,7 +28,7 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        #'security/ir.model.access.csv', # No es necesario
         'views/stock_picking_views.xml',
     ],
 
